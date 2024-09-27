@@ -1,0 +1,125 @@
+body{
+    font-family: sans-serif;
+    margin: auto;
+    padding: auto;
+    color: #fafafa;
+    background-color: rgb(107, 144, 126);
+
+}
+a{
+    text-decoration: none ;
+    color: #4d16a5;
+    background-color: #5676b7;
+    border-radius: 3px;
+}
+header {
+    background-color: rgba(128, 128, 128, 0.773);
+    padding: 30px;
+    text-align: center;
+    box-shadow: 
+}
+h1 {
+    margin-bottom: 50px;
+}
+nav ul {
+    list-style:georgian;
+    padding: auto;
+    margin: auto;
+
+}
+nav li {
+    display: inline;
+    margin: 0 50px
+}
+section {
+    padding: 30px;
+    margin-bottom: 50px;
+    background-image:;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(red, rgb(123, 181, 123), blue, alpha);
+    text-align: center
+}
+h2{
+    color: #04173d;
+    margin-bottom: 50px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(10, 96, 67);
+    padding: 20px;
+}
+/* estilos.css */
+
+.destinos-container {
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.destino {
+    width: 40%; 
+    margin: 10px; 
+    text-align: center; 
+}
+
+.divimg {
+    overflow: hidden; 
+    height: 50%; /* Ajusta este valor según el alto deseado */
+}
+
+.divimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s ease; 
+}
+
+.divimg img:hover {
+    transform: scale(1.1); 
+}
+
+/* Otros estilos de tu página */
+body {
+    background-image: url("images/Curití-Pescaderito\ \(81\).JPG"); /* Reemplaza con la ruta de tu imagen */
+    background-size: 100% auto; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Evita que la imagen se repita */
+    background-attachment: fixed;
+    background-repeat: no-repeat
+    height: 100vh;
+    width: 100%;
+
+}
+h3{
+    color: rgb(194, 186, 239);
+    
+}
+p{
+    color: #000000b0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(215, 250, 236);
+    border-radius: 5px;
+}
+.llamada-accion{
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+} 
+#contacto{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.contenedor2{
+    display: flex;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-left: 15%;
+}
+.mapa{
+    margin-left: 10%;
+}
+.titulo{
+    text-align: center;
+}

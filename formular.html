@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url("images/Curití-Pescaderito\ \(81\).JPG"); /* Ruta de tu imagen */
+            background-size: cover;  /* Ajusta la imagen para cubrir el fondo */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            background-position: center; /* Centra la imagen */  
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Contáctanos</h2>
+        <form action="#" method="post"> 
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escriba su mensaje aquí"></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
